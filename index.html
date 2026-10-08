@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather PWA</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#3b82f6">
+</head>
+<body>
+  <div class="weather-card">
+    <!-- Added Weather Icon Image Here -->
+    <div class="icon-container">
+      <img src="icons/icon-192.png" id="weather-icon" alt="Weather Icon">
+    </div>
+
+    <h2>Weather Widget</h2>
+    
+    <div id="weather-info">
+      <p id="temp">Temperature: --</p>
+      <p id="condition">Condition: --</p>
+    </div>
+
+    <div class="button-group">
+      <button id="get-weather-btn">Get Weather</button>
+      <button id="install-btn" style="display: none;">Install App</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
